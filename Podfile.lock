@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Introspect (0.1.2)
+  - URLImage (2.2.3):
+    - URLImage/Common (= 2.2.3)
+    - URLImage/DownloadManager (= 2.2.3)
+    - URLImage/FileIndex (= 2.2.3)
+    - URLImage/ImageDecoder (= 2.2.3)
+    - URLImage/Log (= 2.2.3)
+    - URLImage/PlainDatabase (= 2.2.3)
+    - URLImage/RemoteContentView (= 2.2.3)
+  - URLImage/Common (2.2.3)
+  - URLImage/DownloadManager (2.2.3):
+    - URLImage/Log
+  - URLImage/FileIndex (2.2.3):
+    - URLImage/Common
+    - URLImage/Log
+    - URLImage/PlainDatabase
+  - URLImage/ImageDecoder (2.2.3)
+  - URLImage/Log (2.2.3)
+  - URLImage/PlainDatabase (2.2.3)
+  - URLImage/RemoteContentView (2.2.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Introspect
+  - URLImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Introspect
+    - URLImage
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Introspect: 85a29d2c5ee4d3d15469ad0b75fd8839f3e72674
+  URLImage: 1eeb43e09cd736008da21944ba51d433ef41c09d
+
+PODFILE CHECKSUM: 495a6539a31cb9176fdc594591cc3ca3b866f693
+
+COCOAPODS: 1.10.1
